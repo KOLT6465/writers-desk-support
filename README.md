@@ -10,16 +10,15 @@ Public support and privacy pages for Writer’s Desk on macOS.
 
 ## Publishing
 
-1. Create a public GitHub repository named `writers-desk-support` under
-   `KOLT6465`.
-2. Push the contents of this directory to its default branch.
-3. In **Settings → Pages**, choose **Deploy from a branch**, select the default
-   branch and the repository root, then save.
-4. Confirm all three URLs above load over HTTPS.
-5. Replace the placeholder support and privacy URLs in Writer’s Desk App Store
-   metadata only after the Pages deployment is live.
+The public repository is `KOLT6465/writers-desk-support`. GitHub Pages deploys
+the root of its `main` branch. Publish the contents of this directory, then
+confirm all three URLs above load over HTTPS.
 
 The `.nojekyll` file tells GitHub Pages to serve this as a plain static site.
+
+The site intentionally shares the production constellation app icon and color
+system so its support and privacy pages remain visually consistent with the
+current Mac app.
 
 ## Local preview
 
